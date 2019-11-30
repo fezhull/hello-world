@@ -1,0 +1,30 @@
+<h2>Click and view // Create an Account bellow!!</h2>
+
+<?php echo $this->tag->form("signup/register"); ?>
+
+<table>
+    <tr>
+        <td>Firstname:</td>
+        <td><input type="text" /></td>
+    </tr>
+     <tr>
+        <td>Lastname:</td>
+        <td><input type="text" /></td>
+    </tr>
+    <tr>
+        <td>Password:</td>
+        <td><input type="password" /></td>
+    </tr>
+    <tr>
+        <td>Confirm Password:</td>
+        <td><input type="password" /></td>
+    </tr>
+</table>
+
+    <p>
+        <?php echo $this->tag->submitButton("Register"); ?>
+    </p>
+
+</form>
+
+
